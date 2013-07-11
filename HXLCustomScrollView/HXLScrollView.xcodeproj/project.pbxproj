@@ -1,0 +1,354 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A26CDBEE178A9B2E000E632F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A26CDBED178A9B2E000E632F /* UIKit.framework */; };
+		A26CDBF0178A9B2E000E632F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A26CDBEF178A9B2E000E632F /* Foundation.framework */; };
+		A26CDBF2178A9B2E000E632F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A26CDBF1178A9B2E000E632F /* CoreGraphics.framework */; };
+		A26CDBF8178A9B2E000E632F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A26CDBF6178A9B2E000E632F /* InfoPlist.strings */; };
+		A26CDBFA178A9B2E000E632F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A26CDBF9178A9B2E000E632F /* main.m */; };
+		A26CDBFE178A9B2E000E632F /* HXLAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A26CDBFD178A9B2E000E632F /* HXLAppDelegate.m */; };
+		A26CDC00178A9B2E000E632F /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = A26CDBFF178A9B2E000E632F /* Default.png */; };
+		A26CDC02178A9B2E000E632F /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A26CDC01178A9B2E000E632F /* Default@2x.png */; };
+		A26CDC04178A9B2E000E632F /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A26CDC03178A9B2E000E632F /* Default-568h@2x.png */; };
+		A26CDC15178A9B5B000E632F /* HXLBaseVC.m in Sources */ = {isa = PBXBuildFile; fileRef = A26CDC0C178A9B5B000E632F /* HXLBaseVC.m */; };
+		A26CDC16178A9B5B000E632F /* HXLRootVC.m in Sources */ = {isa = PBXBuildFile; fileRef = A26CDC0E178A9B5B000E632F /* HXLRootVC.m */; };
+		A26CDC17178A9B5B000E632F /* HXLRootVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = A26CDC0F178A9B5B000E632F /* HXLRootVC.xib */; };
+		A26CDC18178A9B5B000E632F /* img_001.png in Resources */ = {isa = PBXBuildFile; fileRef = A26CDC12178A9B5B000E632F /* img_001.png */; };
+		A26CDC19178A9B5B000E632F /* img_002.png in Resources */ = {isa = PBXBuildFile; fileRef = A26CDC13178A9B5B000E632F /* img_002.png */; };
+		A26CDC1A178A9B5B000E632F /* img_003.png in Resources */ = {isa = PBXBuildFile; fileRef = A26CDC14178A9B5B000E632F /* img_003.png */; };
+		A26CDC21178AA60A000E632F /* HXLCustomPageView.m in Sources */ = {isa = PBXBuildFile; fileRef = A26CDC20178AA60A000E632F /* HXLCustomPageView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A26CDBEA178A9B2E000E632F /* HXLScrollView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HXLScrollView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A26CDBED178A9B2E000E632F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		A26CDBEF178A9B2E000E632F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		A26CDBF1178A9B2E000E632F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		A26CDBF5178A9B2E000E632F /* HXLScrollView-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "HXLScrollView-Info.plist"; sourceTree = "<group>"; };
+		A26CDBF7178A9B2E000E632F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A26CDBF9178A9B2E000E632F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A26CDBFB178A9B2E000E632F /* HXLScrollView-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "HXLScrollView-Prefix.pch"; sourceTree = "<group>"; };
+		A26CDBFC178A9B2E000E632F /* HXLAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HXLAppDelegate.h; sourceTree = "<group>"; };
+		A26CDBFD178A9B2E000E632F /* HXLAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HXLAppDelegate.m; sourceTree = "<group>"; };
+		A26CDBFF178A9B2E000E632F /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		A26CDC01178A9B2E000E632F /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		A26CDC03178A9B2E000E632F /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		A26CDC0B178A9B5B000E632F /* HXLBaseVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HXLBaseVC.h; sourceTree = "<group>"; };
+		A26CDC0C178A9B5B000E632F /* HXLBaseVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HXLBaseVC.m; sourceTree = "<group>"; };
+		A26CDC0D178A9B5B000E632F /* HXLRootVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HXLRootVC.h; sourceTree = "<group>"; };
+		A26CDC0E178A9B5B000E632F /* HXLRootVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HXLRootVC.m; sourceTree = "<group>"; };
+		A26CDC0F178A9B5B000E632F /* HXLRootVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HXLRootVC.xib; sourceTree = "<group>"; };
+		A26CDC12178A9B5B000E632F /* img_001.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = img_001.png; sourceTree = "<group>"; };
+		A26CDC13178A9B5B000E632F /* img_002.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = img_002.png; sourceTree = "<group>"; };
+		A26CDC14178A9B5B000E632F /* img_003.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = img_003.png; sourceTree = "<group>"; };
+		A26CDC1F178AA60A000E632F /* HXLCustomPageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HXLCustomPageView.h; sourceTree = "<group>"; };
+		A26CDC20178AA60A000E632F /* HXLCustomPageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HXLCustomPageView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A26CDBE7178A9B2E000E632F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A26CDBEE178A9B2E000E632F /* UIKit.framework in Frameworks */,
+				A26CDBF0178A9B2E000E632F /* Foundation.framework in Frameworks */,
+				A26CDBF2178A9B2E000E632F /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A26CDBE1178A9B2E000E632F = {
+			isa = PBXGroup;
+			children = (
+				A26CDBF3178A9B2E000E632F /* HXLScrollView */,
+				A26CDBEC178A9B2E000E632F /* Frameworks */,
+				A26CDBEB178A9B2E000E632F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A26CDBEB178A9B2E000E632F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A26CDBEA178A9B2E000E632F /* HXLScrollView.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A26CDBEC178A9B2E000E632F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A26CDBED178A9B2E000E632F /* UIKit.framework */,
+				A26CDBEF178A9B2E000E632F /* Foundation.framework */,
+				A26CDBF1178A9B2E000E632F /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A26CDBF3178A9B2E000E632F /* HXLScrollView */ = {
+			isa = PBXGroup;
+			children = (
+				A26CDC1B178A9C40000E632F /* HXLCustomScrollView */,
+				A26CDC0A178A9B5B000E632F /* BaseView */,
+				A26CDC10178A9B5B000E632F /* Resource */,
+				A26CDBFC178A9B2E000E632F /* HXLAppDelegate.h */,
+				A26CDBFD178A9B2E000E632F /* HXLAppDelegate.m */,
+				A26CDBF4178A9B2E000E632F /* Supporting Files */,
+			);
+			path = HXLScrollView;
+			sourceTree = "<group>";
+		};
+		A26CDBF4178A9B2E000E632F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A26CDBF5178A9B2E000E632F /* HXLScrollView-Info.plist */,
+				A26CDBF6178A9B2E000E632F /* InfoPlist.strings */,
+				A26CDBF9178A9B2E000E632F /* main.m */,
+				A26CDBFB178A9B2E000E632F /* HXLScrollView-Prefix.pch */,
+				A26CDBFF178A9B2E000E632F /* Default.png */,
+				A26CDC01178A9B2E000E632F /* Default@2x.png */,
+				A26CDC03178A9B2E000E632F /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A26CDC0A178A9B5B000E632F /* BaseView */ = {
+			isa = PBXGroup;
+			children = (
+				A26CDC0B178A9B5B000E632F /* HXLBaseVC.h */,
+				A26CDC0C178A9B5B000E632F /* HXLBaseVC.m */,
+				A26CDC0D178A9B5B000E632F /* HXLRootVC.h */,
+				A26CDC0E178A9B5B000E632F /* HXLRootVC.m */,
+				A26CDC0F178A9B5B000E632F /* HXLRootVC.xib */,
+			);
+			path = BaseView;
+			sourceTree = "<group>";
+		};
+		A26CDC10178A9B5B000E632F /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				A26CDC11178A9B5B000E632F /* Images */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		A26CDC11178A9B5B000E632F /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				A26CDC12178A9B5B000E632F /* img_001.png */,
+				A26CDC13178A9B5B000E632F /* img_002.png */,
+				A26CDC14178A9B5B000E632F /* img_003.png */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		A26CDC1B178A9C40000E632F /* HXLCustomScrollView */ = {
+			isa = PBXGroup;
+			children = (
+				A26CDC1F178AA60A000E632F /* HXLCustomPageView.h */,
+				A26CDC20178AA60A000E632F /* HXLCustomPageView.m */,
+			);
+			path = HXLCustomScrollView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A26CDBE9178A9B2E000E632F /* HXLScrollView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A26CDC07178A9B2E000E632F /* Build configuration list for PBXNativeTarget "HXLScrollView" */;
+			buildPhases = (
+				A26CDBE6178A9B2E000E632F /* Sources */,
+				A26CDBE7178A9B2E000E632F /* Frameworks */,
+				A26CDBE8178A9B2E000E632F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HXLScrollView;
+			productName = HXLScrollView;
+			productReference = A26CDBEA178A9B2E000E632F /* HXLScrollView.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A26CDBE2178A9B2E000E632F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = HXL;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = LeoHao;
+			};
+			buildConfigurationList = A26CDBE5178A9B2E000E632F /* Build configuration list for PBXProject "HXLScrollView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = A26CDBE1178A9B2E000E632F;
+			productRefGroup = A26CDBEB178A9B2E000E632F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A26CDBE9178A9B2E000E632F /* HXLScrollView */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A26CDBE8178A9B2E000E632F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A26CDBF8178A9B2E000E632F /* InfoPlist.strings in Resources */,
+				A26CDC00178A9B2E000E632F /* Default.png in Resources */,
+				A26CDC02178A9B2E000E632F /* Default@2x.png in Resources */,
+				A26CDC04178A9B2E000E632F /* Default-568h@2x.png in Resources */,
+				A26CDC17178A9B5B000E632F /* HXLRootVC.xib in Resources */,
+				A26CDC18178A9B5B000E632F /* img_001.png in Resources */,
+				A26CDC19178A9B5B000E632F /* img_002.png in Resources */,
+				A26CDC1A178A9B5B000E632F /* img_003.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A26CDBE6178A9B2E000E632F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A26CDBFA178A9B2E000E632F /* main.m in Sources */,
+				A26CDBFE178A9B2E000E632F /* HXLAppDelegate.m in Sources */,
+				A26CDC15178A9B5B000E632F /* HXLBaseVC.m in Sources */,
+				A26CDC16178A9B5B000E632F /* HXLRootVC.m in Sources */,
+				A26CDC21178AA60A000E632F /* HXLCustomPageView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A26CDBF6178A9B2E000E632F /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A26CDBF7178A9B2E000E632F /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A26CDC05178A9B2E000E632F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		A26CDC06178A9B2E000E632F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A26CDC08178A9B2E000E632F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HXLScrollView/HXLScrollView-Prefix.pch";
+				INFOPLIST_FILE = "HXLScrollView/HXLScrollView-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		A26CDC09178A9B2E000E632F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HXLScrollView/HXLScrollView-Prefix.pch";
+				INFOPLIST_FILE = "HXLScrollView/HXLScrollView-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A26CDBE5178A9B2E000E632F /* Build configuration list for PBXProject "HXLScrollView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A26CDC05178A9B2E000E632F /* Debug */,
+				A26CDC06178A9B2E000E632F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A26CDC07178A9B2E000E632F /* Build configuration list for PBXNativeTarget "HXLScrollView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A26CDC08178A9B2E000E632F /* Debug */,
+				A26CDC09178A9B2E000E632F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A26CDBE2178A9B2E000E632F /* Project object */;
+}
